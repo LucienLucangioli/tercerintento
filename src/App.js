@@ -1,10 +1,19 @@
 import './App.css';
-import Productos from './views/Productos';
+import Login from './components/login';
+import Navbar from './components/navbar';
 function App() {
+    const navbar_items = ['Nosotres', 'Ayuda trámites', 'Leyes a mano']
     return ( 
+        <>
     <div className = "App" >
-            <Productos/>  
+            <Navbar 
+            navbar_items= {navbar_items} 
+            nombre_logo= {"TransData"}
+            search_bar= {true}
+            /> 
+            <Login/>
     </div>
+    </>
     );
 }
 

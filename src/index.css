@@ -12,3 +12,9 @@ code {
     monospace;
 }
 
+
+.form-control1 {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 8px 8px 8px;
+}
